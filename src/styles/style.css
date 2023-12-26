@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* slide */
+
+.slider{
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+}
+.carousel{
+    cursor: grab;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.inner{
+    display: flex;
+    max-height: 100vh;
+    width:90% ;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+  
+}
+.image{
+    min-width: 100%;
+    min-height: 400px;
+    padding: 10px 0;
+}
+
+.image img{
+    width: 80%;
+    height: 90vh;
+    pointer-events: none;
+    border-radius: 12px;
+
+}
+
+@media(max-width: 768px) {
+    .image img{
+        height: 60vh;
+    }
+}
