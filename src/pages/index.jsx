@@ -3,6 +3,7 @@ import DivSlide from "../components/Slide.jsx";
 import Sobre from "../components/Sobre.jsx";
 import Servicos from "../components/Servicos.jsx";
 import Contato from "../components/Contato.jsx";
+import Footer from "../components/Footer.jsx";
 import { useRef } from "react";
 
 
@@ -19,6 +20,8 @@ export default function Index() {
             <Sobre ref={sobreRef}/>
             <Servicos ref={servicosRef} />
             <Contato ref={contactRef}/>
+            <Footer/>
+
         </div>
     )
 }
