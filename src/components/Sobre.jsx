@@ -8,6 +8,8 @@ const Container = styled.div`
     display: flex;
     height: 100vh;
     margin: 0 auto;
+    background-color: #DEE2E6;
+    align-items: center;
     @media (max-width:425px) {
         flex-direction: column-reverse;
         justify-content: center;
@@ -18,7 +20,7 @@ const Container = styled.div`
 
  const DivImg = styled.div`
     width: 50%;
-    height: 100%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +32,7 @@ const Container = styled.div`
         width: 90%;
         height: 90%;
         border-radius: 10px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
 
     @media (max-width: 768px) {
