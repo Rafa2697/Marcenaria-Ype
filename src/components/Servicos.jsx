@@ -9,7 +9,7 @@ const Container = styled.div`
     width: 100% ;
     height: 100vh;
     margin:10px 0;
-    background: rgba(20, 19, 0, 0.16);
+    
     
     h1{
         text-align: center;
@@ -31,7 +31,7 @@ const WraperDiv = styled.div`
 `
 const DivFoto1 = styled.div`
     background-color: white;
-    width: 80%;
+    width: 30%;
     height: 50%;
     background-image:url(${foto1});
     background-size: cover;
@@ -42,6 +42,11 @@ const DivFoto1 = styled.div`
     justify-content: center;
     color: #F8F9FA;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    @media (max-width:425px) {
+       width: 90%;
+       margin-top: 10px;
+    }
     h2{
         text-align: center;
         font-size: 20px;
@@ -55,7 +60,7 @@ const DivFoto1 = styled.div`
 `
 const DivFoto2 = styled.div`
     background-color: white;
-    width: 80%;
+    width: 30%;
     height: 50%;
     background-image:url(${foto2});
     background-size: cover;
@@ -65,6 +70,11 @@ const DivFoto2 = styled.div`
     justify-content: center;
     color: #F8F9FA;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    @media (max-width:425px) {
+       width: 90%;
+       margin-top: 10px;
+    }
     h2{
         text-align: center;
         font-size: 20px;
@@ -78,7 +88,7 @@ const DivFoto2 = styled.div`
 `
 const DivFoto3 = styled.div`
     background-color: white;
-    width: 80%;
+    width: 30%;
     height: 50%;
     background-image:url(${foto3});
     background-size: cover;
@@ -89,6 +99,11 @@ const DivFoto3 = styled.div`
     justify-content: center;
     color: #F8F9FA;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    @media (max-width:425px) {
+       width: 90%;
+       margin-top: 10px;
+    }
     h2{
         text-align: center;
         font-size: 20px;
