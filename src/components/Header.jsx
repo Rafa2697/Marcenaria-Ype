@@ -8,13 +8,13 @@ const NavHeader = styled.nav`
     display: flex;
     align-items: center;
     height: 10vh;
-    background-color: #492818;
     justify-content: space-around;
-
+    
     h1{
         text-align: left;
         color:white ;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #492818;
     }
     ul{
         display: flex;
@@ -22,7 +22,7 @@ const NavHeader = styled.nav`
         justify-content: space-around;
         gap: 10px;
         list-style: none;
-        color: white;
+        color: #492818;
 
         @media (max-width:768px){
             display: none;
